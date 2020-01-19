@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v0.16.18/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"2.1.0","target":"arcade","targetVersion":"0.16.18"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v0.16.18/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"2.1.1","target":"arcade","targetVersion":"0.16.18"}
 // total=1323697 new=6.65% cached=87.86% other=5.49%
 (function (ectx) {
 'use strict';
@@ -410,7 +410,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P188418(s) {
+function _main___P189728(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -789,54 +789,54 @@ switch (step) {
     s.tmp_0 = controller_Button_onEvent__P172404_mk(s);
     s.tmp_0.arg0 = globals.left___172375;
     s.tmp_0.arg1 = 2049;
-    s.tmp_0.arg2 = inline__P188318;
+    s.tmp_0.arg2 = inline__P189412;
     s.pc = 33; return s.tmp_0;
   case 33:
     r0 = s.retval;
     s.tmp_0 = controller_Button_onEvent__P172404_mk(s);
     s.tmp_0.arg0 = globals.down___172381;
     s.tmp_0.arg1 = 2049;
-    s.tmp_0.arg2 = inline__P188328;
+    s.tmp_0.arg2 = inline__P189422;
     s.pc = 34; return s.tmp_0;
   case 34:
     r0 = s.retval;
     s.tmp_0 = controller_Button_onEvent__P172404_mk(s);
     s.tmp_0.arg0 = globals.B___172373;
     s.tmp_0.arg1 = 2049;
-    s.tmp_0.arg2 = inline__P188340;
+    s.tmp_0.arg2 = inline__P189434;
     s.pc = 35; return s.tmp_0;
   case 35:
     r0 = s.retval;
     s.tmp_0 = controller_Button_onEvent__P172404_mk(s);
     s.tmp_0.arg0 = globals.A___172371;
     s.tmp_0.arg1 = 2049;
-    s.tmp_0.arg2 = inline__P188370;
+    s.tmp_0.arg2 = inline__P189464;
     s.pc = 36; return s.tmp_0;
   case 36:
     r0 = s.retval;
     s.tmp_0 = controller_Button_onEvent__P172404_mk(s);
     s.tmp_0.arg0 = globals.right___172379;
     s.tmp_0.arg1 = 2049;
-    s.tmp_0.arg2 = inline__P188377;
+    s.tmp_0.arg2 = inline__P189471;
     s.pc = 37; return s.tmp_0;
   case 37:
     r0 = s.retval;
     s.tmp_0 = controller_Button_onEvent__P172404_mk(s);
     s.tmp_0.arg0 = globals.up___172377;
     s.tmp_0.arg1 = 2049;
-    s.tmp_0.arg2 = inline__P188384;
+    s.tmp_0.arg2 = inline__P189478;
     s.pc = 38; return s.tmp_0;
   case 38:
     r0 = s.retval;
-    globals.mySplashScreen___188335 = (null);
-    globals.gameMode___188321 = (0);
-    globals.gameMode___188321 = (-1);
-    s.tmp_0 = startAttractMode__P188364_mk(s);
+    globals.mySplashScreen___189429 = (null);
+    globals.gameMode___189415 = (0);
+    globals.gameMode___189415 = (-1);
+    s.tmp_0 = startAttractMode__P189458_mk(s);
     s.pc = 39; return s.tmp_0;
   case 39:
     r0 = s.retval;
     s.tmp_0 = game_onUpdate__P172982_mk(s);
-    s.tmp_0.arg0 = inline__P188393;
+    s.tmp_0.arg0 = inline__P189487;
     s.pc = 40; return s.tmp_0;
   case 40:
     r0 = s.retval;
@@ -844,14 +844,14 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P188418.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/pxt-arcade-info-screens/main.ts","functionName":"<main>","argumentNames":[]}
-_main___P188418.continuations = [  ]
-_main___P188418.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/pxt-arcade-info-screens/main.ts","functionName":"<main>","argumentNames":[]}
+_main___P189728.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/pxt-arcade-info-screens/main.ts","functionName":"<main>","argumentNames":[]}
+_main___P189728.continuations = [  ]
+_main___P189728.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/pxt-arcade-info-screens/main.ts","functionName":"<main>","argumentNames":[]}
 
-function _main___P188418_mk(s) {
+function _main___P189728_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P188418, depth: s.depth + 1,
+        parent: s, fn: _main___P189728, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -1446,7 +1446,7 @@ function inline__P173608_mk(s) {
 
 
 
-function inline__P188318(s) {
+function inline__P189412(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1456,11 +1456,11 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0)) return null;
 switch (step) {
   case 0:
 
-    r0 = (globals.gameMode___188321 == 1);
+    r0 = (globals.gameMode___189415 == 1);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
-    s.tmp_1 = startGame__P188324_mk(s);
+    s.tmp_1 = startGame__P189418_mk(s);
     s.pc = 3; return s.tmp_1;
   case 3:
     r0 = s.retval;
@@ -1470,13 +1470,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P188318.info = {"start":198,"length":66,"line":9,"column":55,"endLine":13,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
-inline__P188318.info = {"start":198,"length":66,"line":9,"column":55,"endLine":13,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P189412.info = {"start":198,"length":66,"line":9,"column":55,"endLine":13,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P189412.info = {"start":198,"length":66,"line":9,"column":55,"endLine":13,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P188318_mk(s) {
+function inline__P189412_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P188318, depth: s.depth + 1,
+        parent: s, fn: inline__P189412, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -1486,7 +1486,7 @@ function inline__P188318_mk(s) {
 
 
 
-function inline__P188328(s) {
+function inline__P189422(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1496,11 +1496,11 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0)) return null;
 switch (step) {
   case 0:
 
-    r0 = (globals.gameMode___188321 == 1);
+    r0 = (globals.gameMode___189415 == 1);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
-    s.tmp_1 = startGame__P188324_mk(s);
+    s.tmp_1 = startGame__P189418_mk(s);
     s.pc = 3; return s.tmp_1;
   case 3:
     r0 = s.retval;
@@ -1510,13 +1510,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P188328.info = {"start":321,"length":66,"line":14,"column":55,"endLine":18,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
-inline__P188328.info = {"start":321,"length":66,"line":14,"column":55,"endLine":18,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P189422.info = {"start":321,"length":66,"line":14,"column":55,"endLine":18,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P189422.info = {"start":321,"length":66,"line":14,"column":55,"endLine":18,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P188328_mk(s) {
+function inline__P189422_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P188328, depth: s.depth + 1,
+        parent: s, fn: inline__P189422, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -1526,7 +1526,7 @@ function inline__P188328_mk(s) {
 
 
 
-function inline__P188340(s) {
+function inline__P189434(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1536,11 +1536,11 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0)) return null;
 switch (step) {
   case 0:
 
-    r0 = (globals.gameMode___188321 == 1);
+    r0 = (globals.gameMode___189415 == 1);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
-    s.tmp_1 = startGame__P188324_mk(s);
+    s.tmp_1 = startGame__P189418_mk(s);
     s.pc = 3; return s.tmp_1;
   case 3:
     r0 = s.retval;
@@ -1550,13 +1550,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P188340.info = {"start":513,"length":66,"line":23,"column":52,"endLine":27,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
-inline__P188340.info = {"start":513,"length":66,"line":23,"column":52,"endLine":27,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P189434.info = {"start":513,"length":66,"line":23,"column":52,"endLine":27,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P189434.info = {"start":513,"length":66,"line":23,"column":52,"endLine":27,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P188340_mk(s) {
+function inline__P189434_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P188340, depth: s.depth + 1,
+        parent: s, fn: inline__P189434, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -1566,7 +1566,7 @@ function inline__P188340_mk(s) {
 
 
 
-function inline__P188370(s) {
+function inline__P189464(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1576,11 +1576,11 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0)) return null;
 switch (step) {
   case 0:
 
-    r0 = (globals.gameMode___188321 == 1);
+    r0 = (globals.gameMode___189415 == 1);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
-    s.tmp_1 = startGame__P188324_mk(s);
+    s.tmp_1 = startGame__P189418_mk(s);
     s.pc = 3; return s.tmp_1;
   case 3:
     r0 = s.retval;
@@ -1590,13 +1590,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P188370.info = {"start":1181,"length":66,"line":41,"column":52,"endLine":45,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
-inline__P188370.info = {"start":1181,"length":66,"line":41,"column":52,"endLine":45,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P189464.info = {"start":1181,"length":66,"line":41,"column":52,"endLine":45,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P189464.info = {"start":1181,"length":66,"line":41,"column":52,"endLine":45,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P188370_mk(s) {
+function inline__P189464_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P188370, depth: s.depth + 1,
+        parent: s, fn: inline__P189464, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -1606,7 +1606,7 @@ function inline__P188370_mk(s) {
 
 
 
-function inline__P188377(s) {
+function inline__P189471(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1616,11 +1616,11 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0)) return null;
 switch (step) {
   case 0:
 
-    r0 = (globals.gameMode___188321 == 1);
+    r0 = (globals.gameMode___189415 == 1);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
-    s.tmp_1 = startGame__P188324_mk(s);
+    s.tmp_1 = startGame__P189418_mk(s);
     s.pc = 3; return s.tmp_1;
   case 3:
     r0 = s.retval;
@@ -1630,13 +1630,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P188377.info = {"start":1305,"length":66,"line":46,"column":56,"endLine":50,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
-inline__P188377.info = {"start":1305,"length":66,"line":46,"column":56,"endLine":50,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P189471.info = {"start":1305,"length":66,"line":46,"column":56,"endLine":50,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P189471.info = {"start":1305,"length":66,"line":46,"column":56,"endLine":50,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P188377_mk(s) {
+function inline__P189471_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P188377, depth: s.depth + 1,
+        parent: s, fn: inline__P189471, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -1646,7 +1646,7 @@ function inline__P188377_mk(s) {
 
 
 
-function inline__P188384(s) {
+function inline__P189478(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1656,11 +1656,11 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0)) return null;
 switch (step) {
   case 0:
 
-    r0 = (globals.gameMode___188321 == 1);
+    r0 = (globals.gameMode___189415 == 1);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
-    s.tmp_1 = startGame__P188324_mk(s);
+    s.tmp_1 = startGame__P189418_mk(s);
     s.pc = 3; return s.tmp_1;
   case 3:
     r0 = s.retval;
@@ -1670,13 +1670,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P188384.info = {"start":1426,"length":66,"line":51,"column":53,"endLine":55,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
-inline__P188384.info = {"start":1426,"length":66,"line":51,"column":53,"endLine":55,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P189478.info = {"start":1426,"length":66,"line":51,"column":53,"endLine":55,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P189478.info = {"start":1426,"length":66,"line":51,"column":53,"endLine":55,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P188384_mk(s) {
+function inline__P189478_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P188384, depth: s.depth + 1,
+        parent: s, fn: inline__P189478, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -1686,7 +1686,7 @@ function inline__P188384_mk(s) {
 
 
 
-function inline__P188393(s) {
+function inline__P189487(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1696,7 +1696,7 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0)) return null;
 switch (step) {
   case 0:
 
-    r0 = (globals.gameMode___188321 == 0);
+    r0 = (globals.gameMode___189415 == 0);
     s.tmp_0 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_0);
     if (!r0) { step = 1; continue; }
@@ -1707,14 +1707,14 @@ switch (step) {
   case 5:
     r0 = s.retval;
     s.tmp_2 = r0;
-    r0 = globals.mySplashScreen___188335.fields["_next"];
+    r0 = globals.mySplashScreen___189429.fields["_next"];
     s.tmp_4 = r0;
     r0 = (s.tmp_2 >= s.tmp_4);
     s.tmp_1 = r0;
     r0 = pxsim_numops_toBoolDecr(s.tmp_1);
     if (!r0) { step = 2; continue; }
     s.tmp_5 = RotatingScreens_rotate__P175446_mk(s);
-    s.tmp_5.arg0 = globals.mySplashScreen___188335;
+    s.tmp_5.arg0 = globals.mySplashScreen___189429;
     s.pc = 6; return s.tmp_5;
   case 6:
     r0 = s.retval;
@@ -1725,13 +1725,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P188393.info = {"start":1599,"length":168,"line":60,"column":14,"endLine":68,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
-inline__P188393.info = {"start":1599,"length":168,"line":60,"column":14,"endLine":68,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P189487.info = {"start":1599,"length":168,"line":60,"column":14,"endLine":68,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P189487.info = {"start":1599,"length":168,"line":60,"column":14,"endLine":68,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P188393_mk(s) {
+function inline__P189487_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P188393, depth: s.depth + 1,
+        parent: s, fn: inline__P189487, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -14486,7 +14486,7 @@ function control_PollEvent_constructor__P171945_mk(s) {
 
 
 
-function startAttractMode__P188364(s) {
+function startAttractMode__P189458(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -14496,8 +14496,8 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0)) return null;
 switch (step) {
   case 0:
 
-    globals.gameMode___188321 = (1);
-    s.tmp_0 = showSplashScreen__P188344_mk(s);
+    globals.gameMode___189415 = (1);
+    s.tmp_0 = showSplashScreen__P189438_mk(s);
     s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
@@ -14505,13 +14505,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-startAttractMode__P188364.info = {"start":1056,"length":72,"line":37,"column":0,"endLine":40,"endColumn":1,"fileName":"main.ts","functionName":"startAttractMode","argumentNames":[]}
-startAttractMode__P188364.info = {"start":1056,"length":72,"line":37,"column":0,"endLine":40,"endColumn":1,"fileName":"main.ts","functionName":"startAttractMode","argumentNames":[]}
+startAttractMode__P189458.info = {"start":1056,"length":72,"line":37,"column":0,"endLine":40,"endColumn":1,"fileName":"main.ts","functionName":"startAttractMode","argumentNames":[]}
+startAttractMode__P189458.info = {"start":1056,"length":72,"line":37,"column":0,"endLine":40,"endColumn":1,"fileName":"main.ts","functionName":"startAttractMode","argumentNames":[]}
 
-function startAttractMode__P188364_mk(s) {
+function startAttractMode__P189458_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: startAttractMode__P188364, depth: s.depth + 1,
+        parent: s, fn: startAttractMode__P189458, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
 } }
@@ -14520,7 +14520,7 @@ function startAttractMode__P188364_mk(s) {
 
 
 
-function showSplashScreen__P188344(s) {
+function showSplashScreen__P189438(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -14534,13 +14534,13 @@ switch (step) {
     s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
-    globals.mySplashScreen___188335 = (r0);
+    globals.mySplashScreen___189429 = (r0);
     r0 = pxsim_Array__mk();
     s.tmp_0 = r0;
     r0 = pxsim_Array__push(s.tmp_0, "My MakeCode");
     r0 = pxsim_Array__push(s.tmp_0, "Arcade Game");
     s.tmp_1 = RotatingScreens_setTitles__P175447_mk(s);
-    s.tmp_1.arg0 = globals.mySplashScreen___188335;
+    s.tmp_1.arg0 = globals.mySplashScreen___189429;
     s.tmp_1.arg1 = s.tmp_0;
     s.pc = 2; return s.tmp_1;
   case 2:
@@ -14550,7 +14550,7 @@ switch (step) {
     r0 = pxsim_Array__push(s.tmp_0, "My Game is");
     r0 = pxsim_Array__push(s.tmp_0, "(C) 20XX");
     s.tmp_1 = RotatingScreens_addHeadlines__P175435_mk(s);
-    s.tmp_1.arg0 = globals.mySplashScreen___188335;
+    s.tmp_1.arg0 = globals.mySplashScreen___189429;
     s.tmp_1.arg1 = s.tmp_0;
     s.pc = 3; return s.tmp_1;
   case 3:
@@ -14560,7 +14560,7 @@ switch (step) {
     r0 = pxsim_Array__push(s.tmp_0, "Programmed in");
     r0 = pxsim_Array__push(s.tmp_0, "MakeCode Arcade");
     s.tmp_1 = RotatingScreens_addHeadlines__P175435_mk(s);
-    s.tmp_1.arg0 = globals.mySplashScreen___188335;
+    s.tmp_1.arg0 = globals.mySplashScreen___189429;
     s.tmp_1.arg1 = s.tmp_0;
     s.pc = 4; return s.tmp_1;
   case 4:
@@ -14570,7 +14570,7 @@ switch (step) {
     r0 = pxsim_Array__push(s.tmp_0, "by");
     r0 = pxsim_Array__push(s.tmp_0, "Me");
     s.tmp_1 = RotatingScreens_addHeadlines__P175435_mk(s);
-    s.tmp_1.arg0 = globals.mySplashScreen___188335;
+    s.tmp_1.arg0 = globals.mySplashScreen___189429;
     s.tmp_1.arg1 = s.tmp_0;
     s.pc = 5; return s.tmp_1;
   case 5:
@@ -14583,13 +14583,13 @@ switch (step) {
     r0 = pxsim_Array__push(s.tmp_0, "A = Action");
     r0 = pxsim_Array__push(s.tmp_0, "B = Action");
     s.tmp_1 = SplashScreens_addInstructionsList__P175462_mk(s);
-    s.tmp_1.arg0 = globals.mySplashScreen___188335;
+    s.tmp_1.arg0 = globals.mySplashScreen___189429;
     s.tmp_1.arg1 = s.tmp_0;
     s.pc = 6; return s.tmp_1;
   case 6:
     r0 = s.retval;
     s.tmp_0 = RotatingScreens__C175417_v0_1_mk(s);
-    s.tmp_0.arg0 = globals.mySplashScreen___188335;
+    s.tmp_0.arg0 = globals.mySplashScreen___189429;
     if (!checkSubtype(s.tmp_0.arg0, RotatingScreens__C175417_VT)) failedCast(s.tmp_0.arg0);
     s.tmp_0.fn = s.tmp_0.arg0.vtable.methods.build;
     s.pc = 7; return s.tmp_0;
@@ -14599,13 +14599,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-showSplashScreen__P188344.info = {"start":581,"length":474,"line":28,"column":0,"endLine":36,"endColumn":1,"fileName":"main.ts","functionName":"showSplashScreen","argumentNames":[]}
-showSplashScreen__P188344.info = {"start":581,"length":474,"line":28,"column":0,"endLine":36,"endColumn":1,"fileName":"main.ts","functionName":"showSplashScreen","argumentNames":[]}
+showSplashScreen__P189438.info = {"start":581,"length":474,"line":28,"column":0,"endLine":36,"endColumn":1,"fileName":"main.ts","functionName":"showSplashScreen","argumentNames":[]}
+showSplashScreen__P189438.info = {"start":581,"length":474,"line":28,"column":0,"endLine":36,"endColumn":1,"fileName":"main.ts","functionName":"showSplashScreen","argumentNames":[]}
 
-function showSplashScreen__P188344_mk(s) {
+function showSplashScreen__P189438_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: showSplashScreen__P188344, depth: s.depth + 1,
+        parent: s, fn: showSplashScreen__P189438, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -20789,7 +20789,7 @@ function RotatingScreens_constructor__P175457_mk(s) {
 
 
 
-function startGame__P188324(s) {
+function startGame__P189418(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -20799,9 +20799,9 @@ if (yieldSteps-- < 0 && maybeYield(s, step, r0)) return null;
 switch (step) {
   case 0:
 
-    globals.gameMode___188321 = (0);
+    globals.gameMode___189415 = (0);
     s.tmp_0 = RotatingScreens_release__P175444_mk(s);
-    s.tmp_0.arg0 = globals.mySplashScreen___188335;
+    s.tmp_0.arg0 = globals.mySplashScreen___189429;
     s.pc = 1; return s.tmp_0;
   case 1:
     r0 = s.retval;
@@ -20809,13 +20809,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-startGame__P188324.info = {"start":389,"length":71,"line":19,"column":0,"endLine":22,"endColumn":1,"fileName":"main.ts","functionName":"startGame","argumentNames":[]}
-startGame__P188324.info = {"start":389,"length":71,"line":19,"column":0,"endLine":22,"endColumn":1,"fileName":"main.ts","functionName":"startGame","argumentNames":[]}
+startGame__P189418.info = {"start":389,"length":71,"line":19,"column":0,"endLine":22,"endColumn":1,"fileName":"main.ts","functionName":"startGame","argumentNames":[]}
+startGame__P189418.info = {"start":389,"length":71,"line":19,"column":0,"endLine":22,"endColumn":1,"fileName":"main.ts","functionName":"startGame","argumentNames":[]}
 
-function startGame__P188324_mk(s) {
+function startGame__P189418_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: startGame__P188324, depth: s.depth + 1,
+        parent: s, fn: startGame__P189418, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
 } }
@@ -42507,7 +42507,7 @@ const tiles_Location__C172753_VT = mkVTable({
   },
 });
 
-const breakpoints = setupDebugger(1, ["gameMode___188321","mySplashScreen___188335"])
+const breakpoints = setupDebugger(1, ["gameMode___189415","mySplashScreen___189429"])
 
-return _main___P188418
+return _main___P189728
 })
