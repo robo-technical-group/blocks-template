@@ -3,9 +3,9 @@
  * 
  * Built on
  * 
- * MakeCode Arcade blocks template v. 2.0.0
+ * MakeCode Arcade blocks template v. 2.1.1
  * 
- * Template last update: 13 Jun 2019 ak
+ * Template last update: 19 Jan 2020 ak
  */
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     if (gameMode == 1) {
