@@ -3,7 +3,7 @@
  * 
  * Built on
  * 
- * MakeCode Arcade blocks template v. 2.1.0
+ * MakeCode Arcade blocks template v. 2.1.1
  * 
  * Template last update: 19 Jan 2020 ak
  */
