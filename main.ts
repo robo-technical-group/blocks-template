@@ -3,27 +3,40 @@
  * 
  * Built on
  * 
- * MakeCode Arcade blocks template v. 2.1.1
+ * MakeCode Arcade blocks template v. 2.1.2
  * 
- * Template last update: 19 Jan 2020 ak
+ * Template last update: 03 Aug 2020 ak
  */
-controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
+controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
     if (gameMode == 1) {
         startGame()
+    } else {
+    	
     }
 })
-controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
+controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
     if (gameMode == 1) {
         startGame()
+    } else {
+    	
+    }
+})
+controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
+    if (gameMode == 1) {
+        startGame()
+    } else {
+    	
     }
 })
 function startGame () {
     gameMode = 0
     mySplashScreen.release()
 }
-controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
+controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     if (gameMode == 1) {
         startGame()
+    } else {
+    	
     }
 })
 function showSplashScreen () {
@@ -35,23 +48,22 @@ function showSplashScreen () {
     mySplashScreen.addInstructionsList(["Left/Right = Action", "Up = Action", "Down = Action", "A = Action", "B = Action"])
     mySplashScreen.build()
 }
+controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
+    if (gameMode == 1) {
+        startGame()
+    } else {
+    	
+    }
+})
 function startAttractMode () {
     gameMode = 1
     showSplashScreen()
 }
-controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
+controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
     if (gameMode == 1) {
         startGame()
-    }
-})
-controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
-    if (gameMode == 1) {
-        startGame()
-    }
-})
-controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
-    if (gameMode == 1) {
-        startGame()
+    } else {
+    	
     }
 })
 let mySplashScreen: SplashScreens = null
