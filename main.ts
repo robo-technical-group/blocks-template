@@ -3,10 +3,17 @@
  * 
  * Built on
  * 
- * MakeCode Arcade blocks template v. 2.2.0
+ * MakeCode Arcade blocks template v. 2.2.2
  * 
  * Template last update: 26 Aug 2020 ak
  */
+// My MakeCode Arcade Game
+// 
+// Built on
+// 
+// MakeCode Arcade blocks template v. 2.2.0
+// 
+// Template last update: 26 Aug 2020 ak
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
     if (gameMode == 1) {
         startGame()
@@ -70,8 +77,8 @@ controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
 function updateGame () {
 	
 }
-let mySplashScreen: SplashScreens = null
 let gameMode = 0
+let mySplashScreen: SplashScreens = null
 gameMode = -1
 startAttractMode()
 game.onUpdate(function () {
