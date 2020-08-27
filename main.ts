@@ -3,9 +3,9 @@
  * 
  * Built on
  * 
- * MakeCode Arcade blocks template v. 2.1.2
+ * MakeCode Arcade blocks template v. 2.2.0
  * 
- * Template last update: 03 Aug 2020 ak
+ * Template last update: 26 Aug 2020 ak
  */
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
     if (gameMode == 1) {
@@ -66,13 +66,17 @@ controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
     	
     }
 })
+// Main game update function called by `on update` loop
+function updateGame () {
+	
+}
 let mySplashScreen: SplashScreens = null
 let gameMode = 0
 gameMode = -1
 startAttractMode()
 game.onUpdate(function () {
     if (gameMode == 0) {
-    	
+        updateGame()
     } else {
         if (game.runtime() >= mySplashScreen.nextTime) {
             mySplashScreen.rotate()
