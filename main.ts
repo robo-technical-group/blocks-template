@@ -3,9 +3,9 @@
  * 
  * Built on
  * 
- * MakeCode Arcade blocks template v. 2.2.2
+ * MakeCode Arcade blocks template v. 3.0.0
  * 
- * Template last update: 26 Aug 2020 ak
+ * Template last update: 25 Mar 2023 ak
  */
 // My MakeCode Arcade Game
 // 
@@ -52,7 +52,13 @@ function showSplashScreen () {
     mySplashScreen.addHeadlines(["My Game is", "(C) 20XX"])
     mySplashScreen.addHeadlines(["Programmed in", "MakeCode Arcade"])
     mySplashScreen.addHeadlines(["by", "Me"])
-    mySplashScreen.addInstructionsList(["Left/Right = Action", "Up = Action", "Down = Action", "A = Action", "B = Action"])
+    mySplashScreen.addInstructionsList([
+    "Left/Right = Action",
+    "Up = Action",
+    "Down = Action",
+    "A = Action",
+    "B = Action"
+    ])
     mySplashScreen.build()
 }
 controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
